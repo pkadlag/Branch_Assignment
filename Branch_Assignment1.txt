@@ -1,0 +1,60 @@
+
+$ git init
+
+$ git add first.txt
+
+$ git status
+
+$ git commit -m "it is first file and commit"
+
+$ git status
+
+$ git mv first.txt first_file.txt
+
+$ git status
+
+$ git commit -m "it renames"
+
+$ git status
+
+$ git commit -m "it modifies"
+
+$ git status
+
+$ git add first_file.txt
+
+$ git commit -m "it modifies"
+
+$ git status
+
+$ git log
+
+$ git branch
+
+$ git branch branch1
+
+$ git checkout branch1
+
+$ git status
+
+$ git commit -am "Add new features"
+
+$ git add first_file.txt
+
+$ git status
+
+$ git commit -m "it is new branch commit"
+
+$ git status
+
+$ git diff master branch1
+
+$ git log
+
+$ git checkout master
+
+$ git merge master branch1
+
+$ git log
+
+$
